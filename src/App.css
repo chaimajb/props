@@ -1,0 +1,28 @@
+  
+.App {
+  text-align: center;
+  background-color: rgb(173, 173, 138);
+
+  display: grid;
+  grid-template-columns: 1300px;
+  grid-template-rows: 410px; 
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+} 
+
+.card-image {
+  grid-area: image;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 15px;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+
+.App:hover {
+  box-shadow: 5px 5px 15px rgba(129, 226, 134, 0.6);
+}
