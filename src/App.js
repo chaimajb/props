@@ -17,7 +17,7 @@ function App() {
                     alt="/johnnydepp"
                     width="250"
                     height="300"
-            ></img>
+            />
             </Myprofile>
         </div>
     );
